@@ -5,6 +5,7 @@ FROM ${DOCKER_REGISTRY:+${DOCKER_REGISTRY}/}alpine
 RUN \
   apk add --update --no-cache \
     curl \
+    git \
     jq \
     yq
 
